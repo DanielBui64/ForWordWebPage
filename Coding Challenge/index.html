@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Rowdies&family=Supermercado+One&display=swap" rel="stylesheet">
+</head>
+<body class="main--container">
+    <div class="second--container">
+        <img src="images/icon.png" alt="icon">
+        <h1>Get More From Your <span style="color: #FD0272;">Content</span>.</h1>
+        <p class="pitch--text">ForWord helps you optimize your brands' publications to reach a larger audience, intergrating social content with your website.</p>
+    </div>
+    <div class="box--container">
+        <h4 class="offer--box">Limited Offer</h4>
+        <h2>Sign up to get your free trial today!</h2>
+        <form>
+            <label class="label--word" for="name">Name</label>
+            <input type="name" class="input--box" placeholder="Enter your name">
+            <label class="label--word" for="email">Email</label>
+            <input type="email" class="input--box" placeholder="Enter your email">
+            <p><span><input type="checkbox"></span> I agree to the terms and conditions</p>
+            <button onclick="togglePopup()" type="button" class="start--btn">Start My Free Trial</button>
+        </form>
+    </div>
+
+    <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+            <div class="close-btn" onclick="togglePopup()">&times;   
+        </div>
+            <img src="/images/Welcome.png" alt="welcome">
+            <h1>Welcome!</h1>
+            <p style="color: #828691;">Thanks for filling out the form. A confirmation email has been sent to your hotmail account.</p>
+        </div>
+    </div>
+    
+   <!-- <button onclick="togglePopup()">Start My Free Trial</button> -->
+
+<script src="/script.js"></script>
+</body>
+</html>
